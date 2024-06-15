@@ -1,0 +1,25 @@
+/* Global CSS */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.global-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 100vh;
+}
+
+.global-label {
+    display: flex;
+    justify-content: space-between;
+}
